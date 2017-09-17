@@ -1,0 +1,11 @@
+E:\vs\CustomerInformationCollector\Client\ClientUI\bin\Debug\ClientUI.exe.config
+E:\vs\CustomerInformationCollector\Client\ClientUI\bin\Debug\ClientUI.exe
+E:\vs\CustomerInformationCollector\Client\ClientUI\bin\Debug\ClientUI.pdb
+E:\vs\CustomerInformationCollector\Client\ClientUI\bin\Debug\Receive.dll
+E:\vs\CustomerInformationCollector\Client\ClientUI\bin\Debug\Receive.pdb
+E:\vs\CustomerInformationCollector\Client\ClientUI\obj\Debug\ClientUI.csprojResolveAssemblyReference.cache
+E:\vs\CustomerInformationCollector\Client\ClientUI\obj\Debug\ClientUI.code.MainForm.resources
+E:\vs\CustomerInformationCollector\Client\ClientUI\obj\Debug\ClientUI.Properties.Resources.resources
+E:\vs\CustomerInformationCollector\Client\ClientUI\obj\Debug\ClientUI.csproj.GenerateResource.Cache
+E:\vs\CustomerInformationCollector\Client\ClientUI\obj\Debug\ClientUI.exe
+E:\vs\CustomerInformationCollector\Client\ClientUI\obj\Debug\ClientUI.pdb

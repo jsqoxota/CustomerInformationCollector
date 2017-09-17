@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.4
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerUI", "ServerUI\ServerUI.csproj", "{B59F31D7-E19C-490C-AD59-4C1032836B5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Publisher", "Publisher\Publisher.csproj", "{3202F4EF-3E25-48F0-89F8-416D8BBE8D9F}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B59F31D7-E19C-490C-AD59-4C1032836B5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B59F31D7-E19C-490C-AD59-4C1032836B5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B59F31D7-E19C-490C-AD59-4C1032836B5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B59F31D7-E19C-490C-AD59-4C1032836B5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3202F4EF-3E25-48F0-89F8-416D8BBE8D9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3202F4EF-3E25-48F0-89F8-416D8BBE8D9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3202F4EF-3E25-48F0-89F8-416D8BBE8D9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3202F4EF-3E25-48F0-89F8-416D8BBE8D9F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection

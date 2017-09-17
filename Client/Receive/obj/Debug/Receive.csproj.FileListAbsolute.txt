@@ -1,0 +1,5 @@
+E:\vs\CustomerInformationCollector\Client\Receive\bin\Debug\Receive.dll
+E:\vs\CustomerInformationCollector\Client\Receive\bin\Debug\Receive.pdb
+E:\vs\CustomerInformationCollector\Client\Receive\obj\Debug\Receive.csprojResolveAssemblyReference.cache
+E:\vs\CustomerInformationCollector\Client\Receive\obj\Debug\Receive.dll
+E:\vs\CustomerInformationCollector\Client\Receive\obj\Debug\Receive.pdb

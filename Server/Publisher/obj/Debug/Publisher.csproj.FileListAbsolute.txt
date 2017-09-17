@@ -1,0 +1,5 @@
+E:\vs\CustomerInformationCollector\Server\Publisher\bin\Debug\Publisher.dll
+E:\vs\CustomerInformationCollector\Server\Publisher\bin\Debug\Publisher.pdb
+E:\vs\CustomerInformationCollector\Server\Publisher\obj\Debug\Publisher.csprojResolveAssemblyReference.cache
+E:\vs\CustomerInformationCollector\Server\Publisher\obj\Debug\Publisher.dll
+E:\vs\CustomerInformationCollector\Server\Publisher\obj\Debug\Publisher.pdb

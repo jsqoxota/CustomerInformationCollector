@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B59F31D7-E19C-490C-AD59-4C1032836B5A}</ProjectGuid>
+    <ProjectGuid>{8F4AE07E-38B2-4D44-9407-9E65F98A3756}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>ServerUI</RootNamespace>
-    <AssemblyName>ServerUI</AssemblyName>
+    <RootNamespace>ClientUI</RootNamespace>
+    <AssemblyName>ClientUI</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -79,9 +79,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Publisher\Publisher.csproj">
-      <Project>{3202f4ef-3e25-48f0-89f8-416d8bbe8d9f}</Project>
-      <Name>Publisher</Name>
+    <ProjectReference Include="..\Receive\Receive.csproj">
+      <Project>{d8e76d8f-091c-454a-b88f-74fe6e2f5245}</Project>
+      <Name>Receive</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
