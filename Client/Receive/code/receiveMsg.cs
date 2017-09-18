@@ -35,6 +35,7 @@ namespace Receive.code
             {
                 IsBackground = true
             };
+
             threadClient.Start();
         }
 

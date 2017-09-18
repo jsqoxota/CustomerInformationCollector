@@ -79,6 +79,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\GetInformation\GetInformation.csproj">
+      <Project>{057dbb6f-ee0c-4f1b-8af3-25541675128a}</Project>
+      <Name>GetInformation</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Receive\Receive.csproj">
       <Project>{d8e76d8f-091c-454a-b88f-74fe6e2f5245}</Project>
       <Name>Receive</Name>

@@ -1,0 +1,5 @@
+E:\vs\CustomerInformationCollector\Client\GetInformation\bin\Debug\GetInformation.dll
+E:\vs\CustomerInformationCollector\Client\GetInformation\bin\Debug\GetInformation.pdb
+E:\vs\CustomerInformationCollector\Client\GetInformation\obj\Debug\GetInformation.csprojResolveAssemblyReference.cache
+E:\vs\CustomerInformationCollector\Client\GetInformation\obj\Debug\GetInformation.dll
+E:\vs\CustomerInformationCollector\Client\GetInformation\obj\Debug\GetInformation.pdb

@@ -9,3 +9,5 @@ E:\vs\CustomerInformationCollector\Client\ClientUI\obj\Debug\ClientUI.Properties
 E:\vs\CustomerInformationCollector\Client\ClientUI\obj\Debug\ClientUI.csproj.GenerateResource.Cache
 E:\vs\CustomerInformationCollector\Client\ClientUI\obj\Debug\ClientUI.exe
 E:\vs\CustomerInformationCollector\Client\ClientUI\obj\Debug\ClientUI.pdb
+E:\vs\CustomerInformationCollector\Client\ClientUI\bin\Debug\GetInformation.dll
+E:\vs\CustomerInformationCollector\Client\ClientUI\bin\Debug\GetInformation.pdb

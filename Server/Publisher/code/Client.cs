@@ -35,6 +35,8 @@ namespace Publisher.code
             while (true)
             {
                 Socket clientSocket = serverSocket.Accept();
+                string remoteEndPoint = clientSocket.RemoteEndPoint.ToString();
+                dictionary.Add(remoteEndPoint, clientSocket);
                 clientSocket.Send(Encoding.ASCII.GetBytes("send message"));
                 receiveThread = new Thread(ReceiveMessage);
                 receiveThread.Start(clientSocket);
@@ -62,37 +64,5 @@ namespace Publisher.code
                 }
             }
         }
-
-        //public void Watching()
-        //{
-        //    Socket connect = null;
-        //    while (true)
-        //    {
-        //        try
-        //        {
-        //            connect = socketWatch.Accept();
-        //        }
-        //        catch(Exception e)
-        //        {
-        //            throw e;
-        //        }
-
-        //        IPAddress clientIP = (connect.RemoteEndPoint as IPEndPoint).Address;
-        //        int clientPort = (connect.RemoteEndPoint as IPEndPoint).Port;
-
-        //        string sendMsg = "连接服务端成功！\r\n" + "本地IP:" + clientIP + "，本地端口" + clientPort.ToString();
-        //        byte[] arrSendMsg = Encoding.UTF8.GetBytes(sendMsg);
-        //        connect.Send(arrSendMsg);
-
-        //    }
-        //}
-
-        //private void SendMsg(string sendMsg,string name)
-        //{
-        //    //将string转换为byte 
-        //    byte[] arrClientSendMsg = Encoding.UTF8.GetBytes(sendMsg);
-        //    //向服务端返回确认信息
-        //    dictionary[name].Send(arrClientSendMsg);
-        //}
     }
 }
